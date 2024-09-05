@@ -19,3 +19,8 @@ I create a clone of zoom app with all  functionality of real zoom app. Motivatio
 - Recordings of previous Meeting
 - Schedule Upcoming Meeting 
 
+
+## Screenshots
+
+![App Screenshot](https://github.com/apsdeveloper461/zoom_clone_app/blob/master/public/home.png)
+
