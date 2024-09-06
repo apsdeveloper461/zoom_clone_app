@@ -116,3 +116,18 @@
     width: 100%;
   }
 }
+
+
+/* scroll bar css  */
+
+::-webkit-scrollbar{
+  max-width: 3px;
+  background-color: #1c1f2e;
+}
+::-webkit-scrollbar-track-piece{
+  background-color: #1c1f2e;
+  border-left: 1px solid grey;;
+}
+::-webkit-scrollbar-thumb{
+  @apply bg-blue-1;
+}

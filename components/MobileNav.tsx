@@ -26,7 +26,7 @@ const MobileNav = () => {
             className="sm:hidden cursor-pointer"
             />
         </SheetTrigger >
-        <SheetContent side={'left'} className="bg-dark-1 border-none">
+        <SheetContent side={'left'} className="bg-dark-1 border-none text-white">
           
             <Link href={'/'} className='flex  gap-2 item-start cursor-pointer'>
       <Image src={'/icons/main-Logo.svg'} width={30} height={30} alt={'logo'}   />

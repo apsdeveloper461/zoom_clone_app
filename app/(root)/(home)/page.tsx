@@ -16,7 +16,7 @@ const Home = () => {
   });
   return (
     <section className="flex flex-col size-full gap-6 text-white">
-      <div className=" h-[280px] w-full bg-cover bg-hero rounded-xl flex flex-col justify-between">
+      <div className=" h-[250px] w-full bg-cover bg-hero rounded-xl flex flex-col justify-between">
         <div className=" glassmorphism  w-fit my-5 gap-4 mx-4 text-center text-lg rounded-md px-2 flex text-nowrap">
           Upcoming meeting at 10:00 AM
         </div>
