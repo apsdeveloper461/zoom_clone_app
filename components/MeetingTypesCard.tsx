@@ -49,23 +49,18 @@ const MeetingTypesCard = () => {
             toast({
                 title: "Stared an instant meeting",
               })
-
-
-
-            
+   
         } catch (error) {
             toast({
                 title: "Failed to create meeting",
               })
         }
-
-
     }
 
     return (
         <>
             {/* card s */}
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 xl:gap-3">
+            <div className="grid items-center justify-between grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 xl:gap-3">
                 <HomeCard
                     color="bg-orange-1"
                     imgURL="/icons/add-meeting.svg"
@@ -106,7 +101,7 @@ const MeetingTypesCard = () => {
            buttonText={'Start Meeting'}
            Styles={'bg-blue-1'}
            handleClick={()=>createMeeting()}
-           image='/icons/add-meeting.svg'
+        //    image='/icons/add-meeting.svg'
            buttonIcon='/icons/Video.svg'
            />
         </>

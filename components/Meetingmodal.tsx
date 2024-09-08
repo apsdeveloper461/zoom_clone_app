@@ -40,7 +40,7 @@ const Meetingmodal = ({isOpen,isClose,title,buttonText,buttonIcon,Styles,handleC
     />
     </div>
     }
-    <h2 className="text-xl  font-bold leading-10 text-sky-2 ">{title}</h2>
+    <div className="text-xl  font-bold leading-10 text-sky-2 ">{title}</div>
 </DialogTitle>
     {children}
 

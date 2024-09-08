@@ -5,6 +5,8 @@ import { ClerkProvider } from "@clerk/nextjs";
 import { Toaster } from "@/components/ui/toaster";
 import { dark } from "@clerk/themes";
 
+import '@stream-io/video-react-sdk/dist/css/styles.css';
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -30,9 +32,7 @@ export default function RootLayout({
         colorText:'#FFF',
         colorPrimary:'#0E78F9',
         colorBackground:'#1C1F2E',
-        colorInputText:'#fff',
-        // colorInputBackground:'#252a41',
-     
+        colorInputText:'#fff',     
       }
     }
     }

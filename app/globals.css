@@ -131,3 +131,9 @@
 ::-webkit-scrollbar-thumb{
   @apply bg-blue-1;
 }
+
+
+
+/* video{
+  @apply rounded-lg max-w-[1000px] aspect-video w-full h-auto;
+} */
